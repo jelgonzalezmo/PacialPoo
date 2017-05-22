@@ -25,10 +25,8 @@ public class Main {
             String line = s.nextLine();
             System.out.println(line);
           String [] lineas=line.split(" ");
-          
-                System.out.println(lineas[0]+lineas[1]+lineas[2]+lineas[3]);
-            
-            
+                          System.out.println(lineas[0]+lineas[1]+lineas[2]+lineas[3]);
+                 
             }
             
             
