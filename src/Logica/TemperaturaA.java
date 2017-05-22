@@ -14,5 +14,10 @@ public class TemperaturaA extends Sensor{
     public TemperaturaA( String Marca, String referencia, String Fechains) {
         super( Marca, referencia, Fechains);
     }
+
+    @Override
+    public void promedio() {
+       
+    }
     
 }

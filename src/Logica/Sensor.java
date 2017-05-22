@@ -77,4 +77,8 @@ public abstract class Sensor {
     public void informacion(){
     tipo.toString();
     }
+    
+    public abstract void promedio();
+    
+   
 }

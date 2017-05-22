@@ -15,6 +15,11 @@ public class MilimetrosA extends Sensor{
         super( Marca, referencia, Fechains);
     }
 
+    @Override
+    public void promedio() {
+        
+    }
+
    
     
 }

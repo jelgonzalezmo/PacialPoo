@@ -24,12 +24,10 @@ public class Main {
        while (s.hasNextLine()) {
             String line = s.nextLine();
             System.out.println(line);
-          String [] lineas=line.split(" ");
-                          System.out.println(lineas[0]+lineas[1]+lineas[2]+lineas[3]);
-                 
-            }
-            
-            
+           String [] lineas=line.split(" ");
+                          System.out.println(lineas[0]+" , "+lineas[1]+" , "+lineas[2]+" , "+lineas[3]);
+                             }
+             
            
         
        }}

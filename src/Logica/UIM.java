@@ -13,8 +13,12 @@ import java.util.ArrayList;
  */
 public class UIM {
     private ArrayList<Ciudad> ciudades;
+
+    public UIM(ArrayList<Ciudad> ciudades) {
+        this.ciudades = ciudades;
+    }
+    
     public void RegistroDiario(){
         
-    
-    }
+        }
 }

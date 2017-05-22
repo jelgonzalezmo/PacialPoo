@@ -10,7 +10,7 @@ package Logica;
  * @author Estudiante
  */
 public class NivelCE extends Sensor {
- protected static final String[] TIPOC = {"TormentaElectrica", "Rayos", "Truenos"," Normal"};
+ protected static final String[] TIPOC = {"1-TormentaElectrica", "2-Rayos", "3-Truenos","4-Normal"};
     private String tipoc ;
 
     public NivelCE(String Marca, String referencia, String Fechains) {
@@ -25,5 +25,9 @@ public class NivelCE extends Sensor {
     public void setTipoc(String tipoc) {
         this.tipoc = tipoc;
     }
+
+    @Override
+    public void promedio() {
+         }
     
 }
